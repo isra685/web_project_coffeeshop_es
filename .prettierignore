@@ -1,1 +1,5 @@
+# Ignore artifacts:
+.DS_Store
+
+# Ignore libraries:
 styles/normalize.css
