@@ -1,1 +1,9 @@
 .DS_Store
+
+# Ignorar la carpeta del sprint 3 para que no se suba al repositorio
+sprint_3/
+
+# Ignorar archivos temporales y de sistema
+*.tmp
+*.log
+.vscode/
