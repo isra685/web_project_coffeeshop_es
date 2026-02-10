@@ -50,36 +50,37 @@
     </div>
   </header>
 
+
+  <!-- Agregando reserva de mesa  -->
   <main class="content" id="mesa">
-    <!-- Sección de reserva de mesa -->
+
     <section class="reservation">
       <h2 class="section-title">Reservar una mesa</h2>
 
-      <!-- Formulario para realizar la reserva -->
+      <!-- Formulario -->
       <form class="reservation-form">
-        <!-- Agrupamos los campos del formulario -->
+        <!--campos del formulario -->
         <fieldset class="form-fieldset">
-          <!-- Campo para el nombre -->
+          <!-- Nombre -->
           <label for="name" class="form-label">Nombre *</label>
           <input type="text" id="name" class="form-input" placeholder="Nombre" required>
 
-          <!-- Campo para el número de comensales -->
+          <!-- Número de comensales -->
           <label for="guests" class="form-label">Número de comensales *</label>
           <input type="number" id="guests" class="form-input" placeholder="1-8" required>
-
-          <!-- Campo para la fecha y hora -->
+          <!-- Fecha y hora revisar si se ve bien en safari-->
           <label for="datetime" class="form-label">Fecha y hora *</label>
           <input type="datetime-local" id="datetime" class="form-input" required>
 
-          <!-- Campo para el correo electrónico -->
+          <!-- email -->
           <label for="email" class="form-label">Tu correo electrónico *</label>
           <input type="email" id="email" class="form-input" placeholder="email@email.com" required>
         </fieldset>
-
-        <!-- Botón para enviar el formulario -->
+        <!-- Enviar -->
         <button type="submit" class="form-button">Reservar una mesa</button>
 
-        <!-- Casilla para aceptar términos -->
+
+        <!-- Términos -->
         <label class="form-checkbox-label">
           <input type="checkbox" class="form-checkbox" required>
           <span class="checkbox-text">Acepto los términos de uso</span>
@@ -88,7 +89,8 @@
     </section>
   </main>
 
-  <!-- Pie de página con información de contacto y redes sociales -->
+
+  <!-- Información de contacto y redes sociales -->
   <footer class="footer" id="contactos">
     <div class="footer-columns">
       <div class="footer-column">
