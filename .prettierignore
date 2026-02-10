@@ -1,7 +1,7 @@
 # Ignore artifacts:
 .DS_Store
 
-# Ignorar la carpeta del sprint 3 para que Prettier no cambie los textos
+# Ignorar la carpeta del sprint 3   
 sprint_3/
 
 # Ignore libraries:
